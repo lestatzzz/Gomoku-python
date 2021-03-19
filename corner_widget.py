@@ -2,7 +2,9 @@ from PyQt5.QtGui import QPainter, QPen
 from PyQt5.QtWidgets import QWidget
 from PyQt5.QtCore import Qt
 
-
+'''
+用于显示（highlight）当前鼠标所指的棋盘位置
+'''
 class CornerWidget(QWidget):
 
     def __init__(self, parent):
